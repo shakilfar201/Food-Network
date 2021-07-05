@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    width: 1340px;
+    margin: auto;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.float{
+    float: left;
+}
+/* Food Header Menu */
+.food-header{
+    padding: 10px 0;
+}
+.food-header-link{
+    width: 40%;
+}
+.food-header-link a img{
+    width: 18%;
+}
+.food-header-menu{
+    width: 60%;
+}
+.food-header-menu ul{
+    text-align: right;
+}
+.food-header-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.food-header-menu ul li a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 0px 8px;
+    margin-top: 36px;
+    margin-right: 35px;
+}
+/* Food Content */
+.food-content-first{
+    width: 50%;
+    margin-top: 140px;
+}
+.food-content-first h1{
+    font-size: 65px;
+}
+.food-content-first h2{
+    width: 77%;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.food-content-first p{
+    width: 58%;
+    color: #858585;
+    font-size: 17px;
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    background-image: linear-gradient(to right,rgb(248 165 13),rgb(255, 74, 42));
+    box-shadow: tomato 1px 1px 8px;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 18px;
+}
+.food-content-first span{
+    color: orange;
+    font-size: 65px;
+    margin-right: 9px;
+}
+.food-content-image{
+    width: 50%;
+    text-align: center;
+}
+.food-content-image img{
+    width: 80%;
+}
+
+/* About Me */
+.about-me{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.about-image{
+    width: 50%;
+    text-align: center;
+}
+.about-image img{
+    width: 45%;
+}
+.about-me-content{
+    width: 50%;
+    margin-top: 70px;
+}
+.about-me-content h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.about-me-content p{
+    width: 75%;
+    font-size: 19px;
+    color: #7b7b7b;
+    margin-bottom: 65px;
+}
+/* recipie */
+.recipie {
+    padding-top: 35px;
+    padding-bottom: 65px;
+}
+.recipie-content{
+    text-align: center;
+}
+.recipie-content h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.recipie-content p{
+    width: 40%;
+    margin: auto;
+    color: gray;
+    margin-bottom: 45px;
+}
+.recipies-image{
+    width: 33.3%;
+    padding: 15px;
+    margin-right: 2%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    box-shadow: #a09d9d 1px 1px 20px;
+    border-radius: 20px;
+}
+.recipies-image img{}
+.reci-tittle{
+    margin-top: 25px;
+}
+.reci-tittle h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.reci-tittle p{
+    font-size: 15px;
+    color: #535252;
+}
+
+/* popularity section */
+.popularity {
+    padding-bottom: 30px;
+}
+.follo-shadow{
+    box-shadow: #999494 1px 1px 18px;
+    border-radius: 13px;
+    text-align: center;
+}
+.follower{
+    padding: 30px 0;
+}
+.follower h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.follower span{
+    font-size: 16px;
+    color: #5a5757;
+}
