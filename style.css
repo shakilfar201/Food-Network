@@ -10,7 +10,7 @@ img{
 }
 .flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .container{
     width: 1340px;
@@ -26,6 +26,7 @@ img{
 }
 /* Food Header Menu */
 .food-header{
+    background-color: rgb(245, 145, 52);
     padding: 10px 0;
 }
 .food-header-link{
@@ -48,7 +49,7 @@ img{
     display: inline-block;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     padding: 0px 8px;
     margin-top: 36px;
@@ -86,10 +87,13 @@ img{
     padding: 12px 20px;
     border-radius: 18px;
 }
-.food-content-first span{
+span{
     color: orange;
-    font-size: 65px;
-    margin-right: 9px;
+    font-size: 60px;
+    margin-right: 4px;
+}
+.design{
+    font-size: 35px;
 }
 .food-content-image{
     width: 50%;
@@ -155,7 +159,6 @@ img{
     box-shadow: #a09d9d 1px 1px 20px;
     border-radius: 20px;
 }
-.recipies-image img{}
 .reci-tittle{
     margin-top: 25px;
 }
@@ -175,7 +178,6 @@ img{
 .follo-shadow{
     box-shadow: #999494 1px 1px 18px;
     border-radius: 13px;
-    text-align: center;
 }
 .follower{
     padding: 30px 0;
@@ -187,4 +189,99 @@ img{
 .follower span{
     font-size: 16px;
     color: #5a5757;
+}
+
+/* social css */
+.newsletter {
+    width: 33.3%;
+    text-align: center;
+}
+
+.newsletter h1 {
+    width: 39%;
+    color: #fff;
+    font-size: 34px;
+    margin: auto;
+    border-bottom: 2px solid rgb(129, 235, 129);
+}
+
+.newsletter form {
+    width: 70%;
+    margin: auto;
+}
+
+.newsletter input {
+    padding: 16px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 4px;
+}
+
+.business-social{
+    background-color: rgb(29, 26, 26);
+    padding: 50px 0;
+}
+.business{
+    width: 33.3%;
+    color: #fff;
+}
+.business h1{
+    width: 49%;
+    font-size: 35px;
+    border-bottom: 2px solid rgb(129, 235, 129);
+    margin-bottom: 25px;
+}
+.business h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.social-media{
+    width: 33.3%;
+    color: #fff;
+}
+.social-media h1{
+    font-size: 35px;
+    width: 44%;
+    border-bottom: 2px solid rgb(129, 235, 129);
+    margin-bottom: 19px;
+}
+.social-media p{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.social-media ul{
+    width: 35%;
+    margin-left: 71px;
+}
+.social-media ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.social-media ul li a{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 24px;
+}
+
+/* Footer-section */
+.footer-section{
+    background-color: #232527;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 35px;
+}
+.footer-content h1{
+    margin-bottom: 6px;
+    font-size: 32px;
+    color: #6c6868;
+    margin-bottom: 26px;
+}
+.footer-content p{
+    font-size: 18px;
+    color: rgb(187, 179, 179);
 }
